@@ -58,6 +58,9 @@ angular
       });
     });
   })
+  .factory('Movie', function(MovieRestangular) {
+    return MovieRestangular.service('movie');
+  })
   .directive('youtube', function() {
     return {
       restrict: 'E',

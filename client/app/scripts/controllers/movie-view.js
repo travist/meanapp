@@ -8,7 +8,11 @@
  * Controller of the clientApp
  */
 angular.module('clientApp')
-.controller('MovieViewCtrl', function ($scope, $routeParams, MovieRestangular) {
+.controller('MovieViewCtrl', function (
+  $scope,
+  $routeParams,
+  Movie
+) {
   $scope.viewMovie = true;
-  $scope.movie = MovieRestangular.one('movie', $routeParams.id).get().$object;
+  $scope.movie = Movie.one($routeParams.id).get().$object;
 });

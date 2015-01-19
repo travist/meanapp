@@ -10,7 +10,7 @@
 angular.module('clientApp')
   .controller('MoviesCtrl', function (
     $scope,
-    Restangular
+    Movie
   ) {
-    $scope.movies = Restangular.all('movie').getList().$object;
+    $scope.movies = Movie.getList().$object;
   });
