@@ -1,0 +1,3 @@
+[submodule "presentation"]
+	path = presentation
+	url = https://github.com/travist/presentations.git
