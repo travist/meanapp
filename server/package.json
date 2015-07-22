@@ -14,6 +14,6 @@
     "lodash": "^2.4.1",
     "method-override": "^2.3.1",
     "mongoose": "^4.0.6",
-    "resourcejs": "^0.1.17"
+    "resourcejs": "^0.1.18"
   }
 }
