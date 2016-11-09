@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.10.1",
-    "express": "^4.11.0",
-    "lodash": "^2.4.1",
-    "method-override": "^2.3.1",
-    "mongoose": "^4.0.6",
-    "resourcejs": "^0.1.18"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.16.6",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.6",
+    "resourcejs": "^0.1.25"
   }
 }
